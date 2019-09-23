@@ -18,7 +18,7 @@ def get_stations():
     ycast_dir = os.path.dirname(os.path.realpath(__file__))
     try:
         with open(ycast_dir + '/stations.yml', 'r') as f:
-            stations = yaml.load(f)
+            stations = yaml.load(f, Loader=yaml.FullLoader)
     except FileNotFoundError:
         print("ERROR: Station configuration not found. Please supply a proper stations.yml.")
         sys.exit(1)
