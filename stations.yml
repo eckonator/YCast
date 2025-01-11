@@ -1,6 +1,9 @@
+# WICHTIG: Stream URLs gehen nur mit http, nicht mit https!
+# Daher bei https URLs das s entfernen, bisher geht das noch gut.
 Favoriten:
-  Das Ding: http://swr-edge-2027.dus-lg.cdn.addradio.net/swr/dasding/live/mp3/128/stream.mp3
-  SWR3: http://swr-edge-2027.dus-lg.cdn.addradio.net/swr/swr3/live/mp3/128/stream.mp3
-  bigFM: http://streams.bigfm.de/bigfm-bw-128-aac
-  Radio Ohr: http://str0.creacast.com/hitradio_ohr
-  Radio Regenbogen: http://streams.regenbogen.de/rr-mannheim-128-aac
+  Das Ding: http://dispatcher.rndfnk.com/swr/dasding/live/mp3/128/stream.mp3
+  SWR1 BW: http://dispatcher.rndfnk.com/swr/swr1/bw/mp3/128/stream.mp3
+  SWR3: http://liveradio.swr.de/sw282p3/swr3/play.mp3
+  bigFM: http://stream.bigfm.de/bw/mp3-128
+  Radio Ohr: http://frontend.streamonkey.net/fho-hitradioohrlive/stream/mp3
+  Radio Regenbogen: http://stream.regenbogen.de/karlsruhe/aac-128
